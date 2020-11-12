@@ -1,0 +1,57 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  grid-template-rows: repeat(8, 80px);
+  gap: 6px;
+}
+
+.container > div {
+  display: flex;
+  font-size: 6rem;
+  color:white;
+  background-color: green;
+}
+
+.i1 {
+  grid-column: span 2; 
+}
+
+.i2 {
+  grid-column: span 2; 
+}
+
+.i9 {
+  grid-column: span 2; 
+}
+
+.i10 {
+  grid-column: span 2; 
+}
+
+.i4 {
+  grid-row: span 3;
+}
+
+.i5 {
+  grid-row: span 3;
+}
+
+.i7 {
+  grid-row: span 3;
+}
+
+.i8 {
+  grid-row: span 3;
+}
+
+.i3 {
+  grid-row: span 6;
+}
+
+.i6 {
+  grid-row: span 6;
+}
+
+
+
+
